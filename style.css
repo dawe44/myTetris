@@ -1,0 +1,72 @@
+
+#infoDiv{
+  border:1px solid gray;
+}
+
+p {
+  margin: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#score{
+  font-weight: bold;
+}
+
+h1, h2{
+  text-decoration: underline;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 80px;
+  margin-block-end: 0.1em;
+  margin-block-start: 0.1em;
+  letter-spacing: 14px;
+  text-shadow: 3px 3px;
+
+}
+
+h2{
+  text-shadow: 2px 2px;
+
+}
+#myCanvas{
+  border:1px solid gray;
+  float: left;
+}
+
+#info {
+  padding-bottom: 15px; 
+  padding-left: 15px; 
+  float: right; 
+}
+
+body{
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 680px;
+  text-align: center;
+}
+
+button {
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 25em;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+button:hover{
+  background-color: gray;
+
+}
+
+button:active{
+  background-color: lightgray;
+
+}

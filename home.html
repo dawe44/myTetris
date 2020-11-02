@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="application-name" content="myTetris">
+  <meta name="author" content="David Zadeh">
+  <meta name="description" content="Min version av tetris.">
+  <meta name="generator" content="Notepad++">
+  <meta name="keywords" content="Spel, Tetris, Min">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Tetris</title>
+</head>
+<body>  
+  <br>
+  <br>
+  <canvas id="myCanvas" width="300" height="600"> <p>map</p></canvas>
+  <aside id="info">
+    <h1>Tetris</h1>
+    <div id="infoDiv">
+    <p>Score: <p id="score">0</p></p>
+     </div><br>
+     <div id="infoDiv">
+
+    <h2>Controls</h2>
+    <p>LEFT ARROW:</p>
+    <p>Move Tetromino left</p><br>
+
+    <p>RIGHT ARROW:</p>
+    <p>Move Tetromino right</p><br>
+
+    <p>DOWN ARROW:</p>
+    <p>Move Tetromino down</p><br>
+
+    <p>UP ARROW:</p>
+    <p>Rotate Tetromino 90 degrees clockwise</p><br>
+    </div><br>
+
+    <button id="restartBtn">Restart Game</button>
+
+  </aside>
+
+  <script src="jquery-3.5.1.js"></script> 
+  <script src="jquery-3.5.1.min.js"></script> 
+
+  <script src="tetris.js" charset="utf-8"></script>
+
+
+</body>
+</html>
